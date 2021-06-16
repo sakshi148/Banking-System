@@ -1,0 +1,62 @@
+body
+{
+    font-family: sans-serif;
+}
+.navbar-nav
+{
+padding-left: 500px;
+
+}
+.nav-item
+{
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer
+{
+   height: 50px;
+}
+.footer p{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.card
+{
+    margin-top: 50px;
+    border-radius: 10px;
+    border-color: dodgerblue;
+    height: 250px;
+    
+}
+.card:hover
+{
+    background-color:dodgerblue;
+
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
